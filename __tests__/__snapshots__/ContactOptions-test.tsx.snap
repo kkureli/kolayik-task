@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contactOptions renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+      "marginTop": 30,
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "marginHorizontal": 5,
+        "opacity": 1,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/contactOptions/emailIcon.png",
+        }
+      }
+      style={
+        Object {
+          "height": 70,
+          "marginBottom": 10,
+          "resizeMode": "contain",
+          "width": 70,
+        }
+      }
+    />
+    <Text
+      margin={null}
+      padding={null}
+      style={
+        Object {
+          "color": "#376BFB",
+          "fontFamily": "Roboto",
+          "fontSize": 14,
+          "fontWeight": "400",
+          "textAlign": "center",
+        }
+      }
+    >
+      Email
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "marginHorizontal": 5,
+        "opacity": 1,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/contactOptions/phoneCallIcon.png",
+        }
+      }
+      style={
+        Object {
+          "height": 70,
+          "marginBottom": 10,
+          "resizeMode": "contain",
+          "width": 70,
+        }
+      }
+    />
+    <Text
+      margin={null}
+      padding={null}
+      style={
+        Object {
+          "color": "#376BFB",
+          "fontFamily": "Roboto",
+          "fontSize": 14,
+          "fontWeight": "400",
+          "textAlign": "center",
+        }
+      }
+    >
+      Call
+    </Text>
+  </View>
+</View>
+`;
